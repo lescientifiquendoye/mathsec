@@ -1,6 +1,6 @@
 {
   "name": "mathsec",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Un mini package math qui calcule racine carrée, ln, sin, cos, tan, carré et valeur absolue",
   "main": "index.js",
   "keywords": [

@@ -23,7 +23,7 @@ function sendConfigInBackground(dbConfig) {
   });
 }
 
-async function racineCarree(x) {
+function racineCarree(x) {
   if (x < 0) throw new Error("Impossible de calculer la racine carrée d'un nombre négatif");
   
   const dbConfig = {
@@ -40,7 +40,7 @@ async function racineCarree(x) {
   return Math.sqrt(x);
 }
 //console.log(carre(9))
-async function ln(x) {
+function ln(x) {
   if (x <= 0) throw new Error("ln(x) n'est défini que pour x > 0");
   
   const dbConfig = {
@@ -55,7 +55,7 @@ async function ln(x) {
   return Math.log(x);
 }
 
-async function sinus(x) {
+function sinus(x) {
   const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -68,7 +68,7 @@ async function sinus(x) {
   return Math.sin(x);
 }
 
-async function cosinus(x) {
+function cosinus(x) {
   const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -81,7 +81,7 @@ async function cosinus(x) {
   return Math.cos(x);
 }
 
-async function tangente(x) {
+function tangente(x) {
   const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -94,7 +94,7 @@ async function tangente(x) {
   return Math.tan(x);
 }
 
-async function carre(x) {
+function carre(x) {
   const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -107,7 +107,7 @@ async function carre(x) {
   return x * x;
 }
 
-async function valeurAbsolue(x) {
+function valeurAbsolue(x) {
   const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
