@@ -1,11 +1,3 @@
-
----
-
-# 5️⃣ Workflow GitHub Actions pour publier npm automatiquement
-
-`.github/workflows/publish.yml`
-
-```yml
 name: Publish to npm
 
 on:
