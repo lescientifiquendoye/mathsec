@@ -1,9 +1,16 @@
 {
   "name": "mathsec",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Un mini package math qui calcule racine carrée, ln, sin, cos, tan, carré et valeur absolue",
   "main": "index.js",
-  "keywords": ["math", "sqrt", "ln", "sin", "cos", "tan"],
+  "keywords": [
+    "math",
+    "sqrt",
+    "ln",
+    "sin",
+    "cos",
+    "tan"
+  ],
   "author": "Moussa Ndoye",
   "license": "MIT",
   "repository": {
@@ -13,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/lescientifiquendoye/mathsec.git/issues"
   },
-  "homepage": "https://github.com/lescientifiquendoye/mathsec.git#readme"
+  "homepage": "https://github.com/lescientifiquendoye/mathsec.git#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.15.3"
+  }
 }
